@@ -20,11 +20,73 @@ header {
 }
 
 .header-title-area {
-  width: 100px;
+  width: 400px;
   margin: 0 auto 40px auto;
 }
 
 .logo {
   font-size: 32px;
+}
 
+.header-navigation {
+  width: 100%;
+  background-color: #333;
+  padding: 20px 0;
+}
+
+.header-navigation:after {
+  clear: both;
+  display: block;
+  content: " ";
+}
+
+.header-navigation li {
+  float: left;
+  padding: 0 30px;
+  text-align: center;
+  list-style: none;
+}
+
+.header-navigation li a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.left-contents {
+  width: 600px;
+  margin-right: 20px;
+  float: left;
+}
+
+.right-contents {
+  width: 300px;
+  float: left;
+}
+
+.left-title {
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color:#1e90ff;
+}
+
+.image {
+  padding: 5px;
+  background-color: #d3d3d3;
+  text-align: center;
+  width: 150px;
+  height: 150px;
+  margin-top: 30px;
+  margin-right: 10px;
+  float: left;
+}
+
+.staff-image {
+  width: 100%;
+  height: 100%;
+}
+
+.coment {
+  color:#666;
+  font-size:12px;
 }
